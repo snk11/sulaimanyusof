@@ -100,7 +100,7 @@ function Navigation({}: any) {
           )}
           */}
             
-            <Box sx={{ display: { xs: 'none', sm: 'block' } , marginLeft: 'auto'} }>
+            <Box sx={{ display: { xs: 'none', sm: 'block' }} }>
               {navItems.map((item) => (
                 <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#ddd' }}>
                   {item[0]}
