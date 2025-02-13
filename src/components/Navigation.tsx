@@ -21,9 +21,10 @@ const drawerWidth = 240;
 //const navItems = [['Expertise', 'expertise'], ['History', 'history'], ['Projects', 'projects'], ['Contact', 'contact']];
 const navItems = [['About me', 'expertise']];
 
-{/*
-function Navigation({parentToChild, modeChange}: any) {
 
+//function Navigation({parentToChild, modeChange}: any) {
+function Navigation({}: any) {
+{/*
   const {mode} = parentToChild;
 
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
