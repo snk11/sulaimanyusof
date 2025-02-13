@@ -17,7 +17,7 @@ const labelsFirst = [
     "Linux",
     "Docker"
 ];
-
+/*
 const labelsSecond = [
     "Git",
     "GitHub Actions",
@@ -39,6 +39,7 @@ const labelsThird = [
     "LlamaIndex",
     "Streamlit",
 ];
+*/
 
 function Expertise() {
     return (

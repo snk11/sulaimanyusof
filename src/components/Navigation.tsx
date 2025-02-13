@@ -1,4 +1,4 @@
-import useEffect from "react";
+import { useState,useEffect }  from "react";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
@@ -24,8 +24,8 @@ const navItems = [['About me', 'expertise']];
 
 //function Navigation({parentToChild, modeChange}: any) {
 function Navigation({}: any) {
-{/*
-  const {mode} = parentToChild;
+
+  //const {mode} = parentToChild;
 
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
@@ -33,7 +33,7 @@ function Navigation({}: any) {
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
-  */}
+  
 
   useEffect(() => {
     const handleScroll = () => {
