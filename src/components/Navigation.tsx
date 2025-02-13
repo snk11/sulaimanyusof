@@ -9,7 +9,7 @@ import Drawer from '@mui/material/Drawer';
 //import IconButton from '@mui/material/IconButton';
 //import LightModeIcon from '@mui/icons-material/LightMode';
 import List from '@mui/material/List';
-import ListIcon from '@mui/icons-material/List';
+//import ListIcon from '@mui/icons-material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
@@ -64,7 +64,6 @@ function Navigation({}: any) {
 
   const drawer = (
     <Box className="navigation-bar-responsive" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <p className="mobile-menu-top"><ListIcon/>Menu</p>
       <Divider />
       <List>
         {navItems.map((item) => (
