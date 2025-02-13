@@ -9,13 +9,14 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@material/chips": "^14.0.0",
     "@mui/icons-material": "^6.4.4",
     "@mui/material": "^6.4.4",
     "react": "^19.0.0",
