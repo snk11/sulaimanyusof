@@ -26,7 +26,7 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                    
-                    <p>Through my career, I have been working on building things using Science and Technology for the Industry, to teach people or for myself. I'm passionate about Technology and I'm a big fan of motorsport. Lately, I have been focusing on IT projects and I'm looking forward to our future partnership in this field, see you soon.</p>
+                    <p>Through my career, I have been working on building things using Science and Technology for the Industry, to teach people or for myself. I am passionate about Technology and I am a big fan of motorsport. Lately, I have been focusing on IT projects and I am looking forward to our future partnership in this field, see you soon.</p>
                     <div className="flex-chips">
                         
                         <span className="chip-title">Tech stack:</span>
